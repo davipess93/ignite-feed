@@ -1,10 +1,12 @@
 import { ThumbsUp, Trash } from 'phosphor-react';
+import { Avatar } from './Avatar';
+
 import sytles from './Comment.module.css';
 
 export function Comment() {
   return(
     <div className={sytles.comment}>
-      <img src="https://github.com/davipess93.png" />
+      <Avatar hasBorder={false} src="https://github.com/maykbrito.png" />
 
       <div className={sytles.commentBox}>
         <div className={sytles.commentContent}>
