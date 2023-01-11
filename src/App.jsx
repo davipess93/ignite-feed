@@ -12,12 +12,12 @@ const posts = [
     author: {
       avatarUrl: "https://github.com/davipess93.png",
       name: "Davi Pessoa",
-      role: "Web Developer @ Servfaz"
+      role: "Web Developer JR @ Servfaz"
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' }, 
+      { type: 'link', content: 'davi.github/doctorcare' }, 
     ],
     publishedAt: new Date('2023-01-09 17:20:36')
   },
@@ -31,7 +31,7 @@ const posts = [
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' }, 
+      { type: 'link', content: 'joao.design/doctorcare' }, 
     ],
     publishedAt: new Date('2023-01-10 09:47:22')
   }
